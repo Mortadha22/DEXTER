@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DEXTER</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  </head>
+
+  <body>
+
+    <div class="home_page bg-dark row">
+        <nav class="navbar bg-dark navbar-dark">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <img src="assets/LOGO/dexterLOGO_GOLD.png"> 
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Dexter Chatbot</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">www.mmh.com</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <div class="row intro bg-dark">
+          
+          <div class="col robot_img1" >
+            <img  src="assets/robot_img1.png" alt="">
+          </div>
+
+          <div class="col dexter_title">
+            <h1>DEXTER ChatBot</h1>
+            <h4>Just Asked Me ...</h4>
+
+            <button><a href="#app">GET STARTED</a></button>
+          </div>
+        </div>
+    </div>
+
+
+    <div class="row about_dexter" id="about">
+      <div class=" content">
+        <h1>About</h1>
+        <p>
+          Chatbot technology has been around for decades, but it has recently become more popular due to advances in artificial intelligence (AI). Chatbot technology is a form of AI that enables computers to interact with humans in a natural language. Chatbots are computer programs that use natural language processing (NLP) to understand and respond to user input.<br />
+          
+          Chatbots are becoming increasingly popular as they can provide customer service, answer questions, and even provide personalized recommendations. They can be used in a variety of industries such as healthcare, finance, retail, and education.<br /><br />
+          
+          
+          ChatGPt allows businesses to create custom chatbots that can interact with customers in a natural way. The platform provides tools for creating conversations with customers, understanding their needs, and providing personalized responses. It also offers analytics tools that allow businesses to track customer interactions and gain insights into customer behavior.
+        </p>
+      </div>
+
+      <div class="robot_img2">
+        <img class="img-fluid" src="assets/dexter_img.png" alt="">
+      </div>
+    </div>
+
+    <div id="app" class="bg-dark">
+      <div id="chat_container"></div>
+      <form>
+        <textarea name="prompt" id="1" cols="1" placeholder="Ask Codex..."></textarea>
+        <button type="submit"><img src="assets/send.svg" alt=""></button>
+      </form>
+    </div>
+
+    <footer class="row">
+      <a href="#" class='footer__logo'>
+        <img src="assets/LOGO/dexterLOGO_GOLD.png" alt="">
+      </a>
+
+      <ul class='permalinks'>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#app">Dexter</a></li>
+        <li><a href="#">MMH.com</a></li>
+      </ul>
+
+      <div class="footer__copyright">
+        <small>&copy; DEXTER ChatBot. All Rights reserved</small>
+      </div>
+    </footer>
+
+    <script type="module" src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
