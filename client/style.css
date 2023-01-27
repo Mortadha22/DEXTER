@@ -24,7 +24,6 @@ body {
   width: 100vw;
   height: auto;
   min-height: 80vh;
-  max-height: 200vh;
   padding: 4rem 15%;
 
   display: flex;
@@ -69,7 +68,6 @@ body {
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
-
 
   display: flex;
   flex-direction: row;
@@ -389,9 +387,83 @@ footer a {
  /*---------------- MEDIA QUERIES (SMALL DEVICES)--------*/
  @media (max-width: 426px) {
 
- 
+  .intro .col {
+    height: 70vh;
+    margin-top: 10vh;
+  }
+  .dexter_title {
+    margin-right: 20vw;
+  }
+  .intro h1 {
+    font-weight: 500;
+    font-size: 35px;
+    letter-spacing: 2px;
+  }
+
+
+  .intro a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 2PX;
+  }
+
+  
+  .nav-item a {
+    font-size: 18px;
+    padding-left: 20px;
+    background-color: #eb4545c2;
+  }
   .robot_img1 img {
     display: none;
+  }
+
+  .permalinks {
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0 auto 1.5rem;
+  }
+
+/* ********************************************************/
+
+  .about_dexter .content {
+    margin-left: 10%;
+    padding: 1rem 0;
+    width: 80%;
+  }
+  .about_dexter h1 {
+    font-size: 50px;
+    padding: 20px 0;
+  }
+  .about_dexter p {
+    font-size: 15px;
+  }
+  .about_dexter .robot_img2 {
+    display: none;
+  }
+/* ********************************************************/
+  textarea {
+    padding: 3px;
+  }
+  #app {
+    padding: 1.5rem 10px ;
+  }
+  .wrapper {
+    width: 100%;
+  }
+  .chat {
+    gap: 10px;
+  }
+  .profile {
+    width: 35px;
+    height: 35px;
+  }
+  .message {
+    font-size: 17px;
+    padding-top: 5px;
   }
 
 }
